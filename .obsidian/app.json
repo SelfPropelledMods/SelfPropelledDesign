@@ -1,1 +1,6 @@
-{}
+{
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": true
+}
