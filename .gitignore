@@ -1,0 +1,13 @@
+# Obsidian volatile state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# Uncomment to keep editor settings per-device
+# .obsidian/app.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
