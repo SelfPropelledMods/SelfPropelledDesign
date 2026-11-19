@@ -206,3 +206,33 @@ Additional room/function mods for Decoration (layer 2, depends_on: Decoration). 
 - Police Station + Fire Station + Post Office → **Public Services**
 - Theater & Cinema + Concert & Stage + Nightclub & Bar → **Entertainment**
 - Airport + Train Station → **Transport Hubs**
+
+## Clothing proposal
+
+Clothing is a layer 1 mod (depends_on: Core) holding the shared wearable system: rendering clothes as layers on the player model, slot handling, dyeing/colors, tailoring/sewing station, wardrobes, mannequins, outfit saving.
+
+Armor is not a separate family: it is clothing with a protective purpose, so it lives in Protective Gear.
+
+### Organization rule
+- Split by **purpose only**, not by body part (no Footwear/Headwear/Accessories groups): every hat, shoe or accessory goes to the purpose mod it belongs to
+- **Protective Gear** = clothing whose primary purpose is protecting the body from harm (attacks, impact, falls, hazardous materials). In-game test: gives armor points or damage reduction
+- Incidental protection (warmth, rain, sturdy fabric) does not count: those items go by their main purpose
+
+### Clothing sets (layer 2, depends_on: Clothing)
+- **Everyday Wear**: shirts, jeans, hoodies, dresses, sneakers, boots, caps, beanies, glasses, bags, watches
+- **Formal Wear**: suits, ties, gowns, dress shoes, fedoras, top hats
+- **Uniforms**: police, medical, firefighter, military, chef (ties in with Emergency Services, Medical)
+- **Sportswear**: jerseys, kits, tracksuits, team colors, football boots, ice skates (ties in with Sports)
+- **Workwear**: overalls, hi-vis vests, lab coats (ties in with Construction, Laboratory)
+- **Seasonal Wear**: winter coats, gloves, scarves, raincoats, winter boots (ties in with Weather)
+- **Swimwear**: swimsuits, goggles, wetsuits (ties in with Aquatics, Paddle & Sail)
+- **Protective Gear**: plate armor, riot gear, bulletproof vests, hard hats, bike/motorcycle helmets, knee pads, racing suits, hazmat suits, welding and gas masks (ties in with Weapons, Bikes & Boards, Motorsports)
+- **Historical Costumes**: medieval, Roman, Victorian, pirate, crowns
+- **Traditional Clothing**: folk costumes from different cultures
+- **Costumes**: Halloween and party costumes, witch hats (ties in with Holidays)
+- **Jewelry**: rings, necklaces, earrings (ties in with Geology gems)
+
+### Open decisions
+- Slots: vanilla armor slots vs separate cosmetic/accessory slots via a library (Trinkets on Fabric, Curios on NeoForge, Accessories works on both)
+- Jewelry: own mod, or fold into Everyday/Formal Wear?
+- Backpacks with extra inventory are functional, not clothing: belong in Camping or a utility mod
