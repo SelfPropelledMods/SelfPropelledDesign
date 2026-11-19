@@ -236,3 +236,70 @@ Armor is not a separate family: it is clothing with a protective purpose, so it 
 - Slots: vanilla armor slots vs separate cosmetic/accessory slots via a library (Trinkets on Fabric, Curios on NeoForge, Accessories works on both)
 - Jewelry: own mod, or fold into Everyday/Formal Wear?
 - Backpacks with extra inventory are functional, not clothing: belong in Camping or a utility mod
+
+## Possible future layer 1 mods
+
+> [!note] Not planned
+> These are only possible future expansions, kept so the ideas aren't lost. None of them are planned for now.
+
+Already covered elsewhere: Armor (Protective Gear in Clothing), Jewelry (Clothing), Furniture (Decoration), Stadiums (Sports or Decoration).
+
+### Close to existing families
+- **Roads**: roads, lane markings, traffic lights, road signs, bridges, tunnels, street lamps (ties in with Vehicles)
+- **Military**: bases, fortifications, camouflage, bunkers (ties in with Weapons)
+- **Maritime**: harbors, lighthouses, buoys, docks (ties in with Watercraft, Naval Flags)
+- **Emergency Services**: police, fire and rescue stations and equipment (ties in with Vehicles, Uniforms)
+
+### Technology and industry
+- **Energy**: generators, solar, wind, hydro, nuclear, power lines (EV charging for Vehicles)
+- **Electronics**: computers, TVs, radios, phones, cameras
+- **Industry**: factories, conveyors, assembly lines, vehicle factories
+- **Construction**: scaffolding, concrete, steel beams, construction cranes
+- **Space**: rockets, satellites, space stations, other planets (ties in with Vehicles, Flags)
+- **Science**: labs, chemistry, microscopes, observatories
+- **Robotics**: robots, drones, automated arms
+- **Tools**: power drills, chainsaws, angle grinders, measuring tools, ladders
+
+### Infrastructure and utilities
+- **Plumbing & Water**: pipes, water towers, pumps, purification, sewers
+- **Oil & Gas**: drilling rigs, pumpjacks, refineries, fuel for Vehicles
+- **Mining**: drills, conveyors, mine carts, quarries
+- **Waste & Recycling**: bins, garbage trucks, recycling plants, landfills
+- **Logistics**: shipping containers, forklifts, cargo cranes, warehouses
+- **Security**: locks, keys, safes, alarms, security cameras, keycard doors
+- **Communication**: post offices, mailboxes, telephones, radio towers
+
+### Everyday life
+- **Food**: cooking appliances, dishes by cuisine, drinks
+- **Agriculture**: real crops, orchards, beekeeping, livestock, vineyards (ties in with Machinery)
+- **Commerce**: money, shops, vending machines, ATMs, markets
+- **Medicine**: hospitals, first aid, pharmacies (functional counterpart to Medical decor)
+- **Education**: schools, textbooks, working blackboards
+
+### Leisure and culture
+- **Music**: instruments, speakers, stages, jukebox
+- **Games**: board games, chess, cards, arcade
+- **Amusement Parks**: roller coasters, Ferris wheels, carousels (uses Vehicles ride mechanics)
+- **Camping**: tents, campfires, sleeping bags, backpacks with extra inventory
+- **Photography**: cameras, photos, frames, albums
+- **Hunting & Fishing**: fishing rods, lures, nets, tackle boxes, hunting stands (ties in with Bows, Wildlife)
+- **Printing & Writing**: typewriters, printing presses, newspapers, books
+- **Navigation**: compasses, GPS, sea charts, globes, sextants
+- **Archaeology**: dig sites, fossils, artifacts, dinosaur skeletons
+
+### Nature and world
+- **Wildlife**: real-world animals, zoos, aquariums, pets
+- **Plants**: real tree species, flowers, gardening
+- **Weather**: seasons, storms, wind, temperature (Seasons could merge here; ties in with Flags, Paddle & Sail, Seasonal Wear)
+- **Geology**: real minerals, gems, rocks, gem cutting
+- **Disasters**: earthquakes, floods, tornadoes, wildfires
+
+### Crafts
+- **Workshops**: blacksmithing, woodworking, pottery, glassblowing
+- **Textiles**: weaving, dyeing, sewing (Flags and Clothing could build on it)
+
+### Possibly layer 2 instead
+- **Fireworks**: under Weapons (next to Explosives) or Decoration (next to Party)
+
+### Outside the real-world theme
+- **Magic**, **Mythology**, **Dragons**: would change what "SelfPropelled" stands for, so a conscious decision
