@@ -146,3 +146,63 @@ Styles (medieval, modern, rustic...) are material/style variants inside mods, no
 - Likely merges: Dining into Kitchen, Classroom into Office
 - Whiteboards: Office owns them, Classroom optionally uses them (if both stay)
 - Flags: stay layer 1, or move under Decoration?
+
+## Extra decoration mods
+
+Additional room/function mods for Decoration (layer 2, depends_on: Decoration). Many of these are small: a few recognizable items plus some variation of a help/service desk.
+
+### Possible approach
+- Shared **Counters & Desks** element mod (reception, service, ticket, teller, check-in desks) so each small mod only adds its signature items
+- Merge small ones into grouped mods (see Possible merges)
+- Decoration holds props that only look the part; functional versions (healing bed, working lab bench) belong to functional L1 mods (Medicine, Science, Music, Fitness), with optional deps between them
+
+### Public services
+- **Medical**: hospital beds, IV stands, curtains, reception desks, pharmacy shelves, wheelchairs
+- **Laboratory**: lab benches, fume hoods, glassware, microscopes, safety showers
+- **Police Station**: front desks, holding cells, filing cabinets, evidence lockers
+- **Fire Station**: gear lockers, hose racks, sliding poles, alarm bells
+- **Post Office**: counters, sorting shelves, parcel piles, PO boxes
+- **Bank**: teller counters, vault doors, safe deposit boxes, queue barriers
+- **Courtroom**: judge's bench, witness stand, gallery seating
+- **Places of Worship**: pews, altars, lecterns, candle stands
+
+### Culture and entertainment
+- **Museum & Gallery**: plinths, display cases, rope barriers, info plaques
+- **Theater & Cinema**: tiered seating, stage curtains, projectors, ticket booths
+- **Concert & Stage**: stage platforms, speakers, spotlights, mixing desks (ties in with Music)
+- **Nightclub & Bar**: DJ booths, bar shelves, disco balls, booth seating
+- **Recording Studio**: sound panels, microphones, mixing consoles
+- **Art Studio**: easels, canvases, paint tubes, sculpting stands
+
+### Services and shops
+- **Barbershop & Salon**: barber chairs, hair dryers, lit mirrors
+- **Laundromat**: washing machines, dryers, folding tables
+- **Garage & Workshop**: tool walls, workbenches, car lifts, tire stacks (ties in with Vehicles)
+- **Gas Station**: pumps, canopies, air pumps (ties in with Automobiles)
+- **Market Stalls**: fruit stands, awnings, crates, scales
+
+### Leisure
+- **Gym**: weight racks, mats, lockers, mirrors (decorative counterpart to Fitness)
+- **Spa & Sauna**: sauna benches, hot tubs, massage tables
+- **Pool & Beach**: loungers, umbrellas, pool ladders, lifeguard chairs (ties in with Aquatics)
+- **Hotel**: reception desks, luggage carts, key boards, room service trolleys
+- **Tavern & Inn**: barrels, long tables, bar counters, hanging signs
+
+### Transport hubs
+- **Airport**: check-in desks, luggage carousels, departure boards (ties in with Aviation)
+- **Train Station**: ticket machines, platform benches, station clocks (ties in with Rails)
+
+### Rural and industrial
+- **Farm & Barn**: hay bales, troughs, feed bins, tool racks (ties in with Agriculture)
+- **Stable**: stalls, saddle racks, hay nets (ties in with Equestrian)
+- **Warehouse**: pallets, pallet racks, crates, loading docks
+- **Greenhouse**: potting benches, seed trays, misting pipes
+
+### Home extras
+- **Nursery & Kids' Room**: cribs, changing tables, toy chests
+- **Attic & Basement**: storage boxes, old trunks, water heaters, shelving
+
+### Possible merges
+- Police Station + Fire Station + Post Office → **Public Services**
+- Theater & Cinema + Concert & Stage + Nightclub & Bar → **Entertainment**
+- Airport + Train Station → **Transport Hubs**
