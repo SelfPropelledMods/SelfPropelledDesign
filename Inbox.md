@@ -23,11 +23,11 @@
 - **Fitness**: gym equipment, weights, treadmills
 
 ### Both (depends_on: Sports, Vehicles)
-- **Motorsports**: race cars, race bikes, karts, rally, drag racing; tracks, pit lanes, timing (optional_deps: Automobiles, Motorbikes)
+- **Motorsports**: race cars, race bikes, karts, rally, drag racing; tracks, pit lanes, timing (optionally_depends_on: Automobiles, Motorbikes)
 - **Bikes & Boards** (working name): bicycles, BMX, skateboards, kick scooters, roller skates, unicycles; ramps, skateparks
-- **Paddle & Sail**: canoes, kayaks, rowing boats, sailboats, surfboards, windsurfing (optional_deps: Watercraft)
-- **Snow Sports**: skis, snowboards, sleds, bobsleigh, luge (optional_deps: Ice Sports)
-- **Air Sports**: gliders, hang gliders, paragliders, parachutes, skydiving (optional_deps: Aviation)
+- **Paddle & Sail**: canoes, kayaks, rowing boats, sailboats, surfboards, windsurfing (optionally_depends_on: Watercraft)
+- **Snow Sports**: skis, snowboards, sleds, bobsleigh, luge (optionally_depends_on: Ice Sports)
+- **Air Sports**: gliders, hang gliders, paragliders, parachutes, skydiving (optionally_depends_on: Aviation)
 
 ### Open decisions
 - Motorsports: own race vehicles + optional Automobiles/Motorbikes, or layer 3 depending on them directly?
@@ -41,7 +41,7 @@ Weapons is a layer 1 mod (depends_on: Core) holding shared weapon systems: proje
 - **Firearms** (layer 2, depends_on: Weapons): shared gun framework: reloading, recoil, calibers, attachments
   - **Handguns** (layer 3, depends_on: Firearms): revolvers, pistols, derringers, machine pistols
   - **Long Guns** (layer 3, depends_on: Firearms): hunting rifles, assault rifles, sniper rifles, shotguns
-  - **Heavy Weapons** (layer 3, depends_on: Firearms): machine guns, RPGs, grenade launchers, flamethrowers (optional_deps: Explosives)
+  - **Heavy Weapons** (layer 3, depends_on: Firearms): machine guns, RPGs, grenade launchers, flamethrowers (optionally_depends_on: Explosives)
   - **Black Powder** (layer 3, depends_on: Firearms): muskets, flintlocks, blunderbusses, hand cannons
 
 ### Traditional weapons (layer 2, depends_on: Weapons)
@@ -53,7 +53,7 @@ Weapons is a layer 1 mod (depends_on: Core) holding shared weapon systems: proje
 
 ### Other (layer 2, depends_on: Weapons)
 - **Explosives**: grenades, dynamite, mines, C4
-- **Siege**: catapults, trebuchets, ballistas, cannons (optional_deps: Vehicles)
+- **Siege**: catapults, trebuchets, ballistas, cannons (optionally_depends_on: Vehicles)
 
 ### Cross-family ideas
 - Sports + Weapons: archery, fencing, sport shooting (Precision Sports / Combat Sports could optionally depend on Bows / Blades)
